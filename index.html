@@ -6,53 +6,47 @@
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src='main.js'></script>
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">Navbar</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse container d-flex flex-row justify-content-end" id="navbarNavDropdown"> 
-                  <ul class="navbar-nav">
-                    <li class="nav-item col">
-                      <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class=" nav-item col">
-                        <a class="nav-link" href="#">Features</a>
-                        </li>
-                        <li class="nav-item col">
-                        <a class="nav-link" href="#">Pricing</a>
-                        </li>
-                        <li class="nav-item dropdown col">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown link
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="./kategorija.html">Action</a></li>
-                            <li><a class="dropdown-item" href="./kategorija.html">Another action</a></li>
-                            <li><a class="dropdown-item" href="./kategorija.html">Something else here</a></li>
-                        </ul>
-                        </li>
-                  </ul>
-                </div>
-              </div>
-        </nav>
+    <header class="">
+      <navbar class="navbar">
+        <div class="logo">
+          <a class="" href="index.html"><img src="images/logo.jfif"></a>
+        </div>
+        <div class="links">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="kategorija.html">Kategorije</a>
+            </li>
+            <li class="nav-item">
+              <a href="kategorija.html">Proizvodi</a>
+            </li>
+            <li class="nav-item">
+              <a href="kategorija.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="kategorija.html">Korpa</a>
+            </li>
+          </ul>
+        </div>
+      </navbar>
     </header>
 
-    <main class="mt-4">
+    <main class="main">
         <div class="container">
-            <div class="row row-cols-4">
-              <div class="col"><a href="./kategorija.html">Kategorija 1</a></div>
-              <div class="col"><a href="./kategorija.html">Kategorija 2</a></div>
-              <div class="col"><a href="./kategorija.html">Kategorija 3</a></div>
-              <div class="col"><a href="./kategorija.html">Kategorija 4</a></div>
+          <div class="flex-row d-flex justify-content-center">
+            <div class="">
+              <h3 class="">KATEGORIJE</h3>
             </div>
           </div>
+          <div class="mt-3 flex-row d-flex justify-content-between">
+            <div class=""><a href="./kategorija.html">Teleskopi</a></div>
+            <div class=""><a href="./kategorija.html">Dvogledi</a></div>
+            <div class=""><a href="./kategorija.html">Durbini</a></div>
+            <div class=""><a href="./kategorija.html">SkyWatcher-i</a></div>
+          </div>
+        </div>
     </main>
     
     <footer>
